@@ -1,7 +1,7 @@
 extends Control
 
-var UIExtra = preload("res://godot-libs/libs/utils/ui_extra.gd")
-var ObjectUtils = preload("res://godot-libs/libs/utils/object_utils.gd")
+var UIExtra = preload("res://godot-libs/sub.gd.utils/ui_extra.gd")
+var ObjectUtils = preload("res://godot-libs/sub.gd.utils/object_utils.gd")
 
 export(int) var length:int = 0 setget set_length, get_length
 

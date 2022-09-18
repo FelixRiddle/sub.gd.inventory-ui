@@ -6,7 +6,7 @@ signal inventory_added(added_inv)
 # The length will likely be overrided
 export(bool) var debug:bool = false setget set_debug, get_debug
 
-var ObjectUtils = preload("res://godot-libs/libs/utils/object_utils.gd")
+var ObjectUtils = preload("res://godot-libs/sub.gd.utils/object_utils.gd")
 
 func _init():
 	if(debug):

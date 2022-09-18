@@ -1,10 +1,10 @@
 extends Control
 class_name CellsManager
 
-var Cell:PackedScene = preload("res://godot-libs/inventory_ui/" + \
+var Cell:PackedScene = preload("res://godot-libs/sub.gd.inventory-ui/" + \
 		"cells_manager/cell_v2/cell_v2.tscn")
-var InventoryScript = preload("res://godot-libs/inventory/inventory.gd")
-var ObjectUtils = preload("res://godot-libs/libs/utils/object_utils.gd")
+var InventoryScript = preload("res://godot-libs/sub.gd.inventory-src/inventory.gd")
+var ObjectUtils = preload("res://godot-libs/sub.gd.utils/object_utils.gd")
 
 signal cells_changed(old_arr, new_arr)
 # Every time overflow changes free the previous ones?
